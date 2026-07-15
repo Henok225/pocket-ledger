@@ -1,0 +1,6 @@
+flask
+pydantic
+python-dateutil
+pandas
+pdfplumber
+gunicorn

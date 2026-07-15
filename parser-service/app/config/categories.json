@@ -1,0 +1,13 @@
+{
+    "groceries": [
+        "albert heijn",
+        "jumbo",
+        "lidl"
+    ],
+
+    "transport": [
+        "shell",
+        "bp",
+        "esso"
+    ]
+}
