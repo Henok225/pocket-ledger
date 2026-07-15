@@ -25,5 +25,5 @@ dist/
 build/
 
 # Example files
-statement.csv/
-statement.pdf/
+.csv/
+.pdf/
