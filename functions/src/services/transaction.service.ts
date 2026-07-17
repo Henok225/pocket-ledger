@@ -1,5 +1,5 @@
-import { TransactionRepository } from "../repositories/transaction.repository";
-import { CreateTransactionDTO } from "../types/transaction";
+import { TransactionRepository } from "../repositories/transaction.repository.js";
+import { CreateTransactionDTO } from "../types/transaction.js";
 
 export function createTransactionService(
   repository: TransactionRepository

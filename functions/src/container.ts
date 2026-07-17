@@ -1,5 +1,5 @@
-import { createPrismaTransactionRepository } from "./repositories/prisma.transaction.repository";
-import { createTransactionService } from "./services/transaction.service";
+import { createPrismaTransactionRepository } from "./repositories/prisma.transaction.repository.js";
+import { createTransactionService } from "./services/transaction.service.js";
 
 const repository = createPrismaTransactionRepository();
 

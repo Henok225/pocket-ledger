@@ -1,7 +1,7 @@
 import { Prisma, Transaction } from "@prisma/client";
-import { prisma } from "../prisma/client";
-import { CreateTransactionDTO } from "../types/transaction";
-import { TransactionRepository } from "./transaction.repository";
+import { prisma } from "../prisma/client.js";
+import { CreateTransactionDTO } from "../types/transaction.js";
+import { TransactionRepository } from "./transaction.repository.js";
 
 export function createPrismaTransactionRepository(): TransactionRepository {
   return {

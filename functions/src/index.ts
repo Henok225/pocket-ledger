@@ -1,5 +1,5 @@
-import { addTransaction } from "./routes/addTransaction";
-import { listTransactions } from "./routes/listTransactions";
+import { addTransaction } from "./routes/addTransaction.js";
+import { listTransactions } from "./routes/listTransactions.js";
 
 export {
   addTransaction,

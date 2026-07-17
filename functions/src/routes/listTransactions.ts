@@ -1,5 +1,5 @@
 import { onRequest } from "firebase-functions/v2/https";
-import { transactionService } from "../container";
+import { transactionService } from "../container.js";
 
 export const listTransactions = onRequest(async (req, res) => {
   try {

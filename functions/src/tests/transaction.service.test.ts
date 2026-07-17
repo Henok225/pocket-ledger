@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { createFakeTransactionRepository } from "./fake.transaction.repository";
-import { createTransactionService } from "../services/transaction.service";
+import { createFakeTransactionRepository } from "./fake.transaction.repository.js";
+import { createTransactionService } from "../services/transaction.service.js";
 
 describe("TransactionService", () => {
   it("creates a transaction", async () => {
