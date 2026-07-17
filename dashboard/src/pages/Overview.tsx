@@ -51,7 +51,7 @@ return (
 
 
     {/* Charts */}
-    <div className="grid md:grid-cols-2 gap-8">
+    <div className="grid md:grid-cols-2 gap-10 sm:grid-cols-1">
 
 
       <div className="bg-white shadow rounded-lg p-6">
